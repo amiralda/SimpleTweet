@@ -8,5 +8,9 @@
     <string name="kkkjjkksjnvz">kkkjjkksjnvz</string>
     <string name="textview">TextView</string>
     <string name="todo">TODO</string>
+    <string name="compose_hint">What\'s on your mind?</string>
+    <string name="tweet">Tweet</string>
+    <string name="dany_augustin">Dany AUGUSTIN</string>
+    <string name="my_tweets">My Tweets</string>
 
 </resources>

@@ -10,8 +10,11 @@
         android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
         android:layout_marginRight="5dp"
-        android:contentDescription="@string/todo"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -25,7 +28,8 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="252dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="Dany AUGUSTIN" />
+        android:text="@string/dany_augustin"
+        android:maxLength="@android:integer/config_longAnimTime"/>
 
     <TextView
         android:id="@+id/tvBody"
@@ -35,6 +39,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="My Tweets" />
+        android:text="@string/my_tweets" />
 
 </RelativeLayout>
